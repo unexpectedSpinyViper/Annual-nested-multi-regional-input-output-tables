@@ -1,0 +1,83 @@
+windc_sector,windc_desc,bea_summary,bea_summary_desc,oecd_code,OECD ICIO Industry,"flag (0=possibilities, 1=error,2=ambiguous,3=perfect match)",proposed sector,which is larger?
+ote,Other transportation equipment (3364OT),3364OT,Other transportation equipment,C301,Building of ships and boats,0,Manufacture of other transport equipment,windc
+adm,Administrative and support services (561),561,Administrative and support services,N,Administrative and support service activities,3,Administrative and support service activities,match
+air,Air transportation (481),481,Air transportation  ,H51,Air transport,3,Air transport,match
+con,Construction (23),23,Construction,F,Construction,3,Construction,match
+edu,Educational services (61),61,Educational services,P,Education,3,Education,match
+uti,Utilities (22),22,Utilities,D,"Electricity, gas, steam and air conditioning supply",3,"Electricity, gas, steam and air conditioning supply, and wasterwater",none
+pip,Pipeline transportation (486),486,Pipeline transportation,H49,Land transport and transport via pipelines,3,Land transport and transport via pipelines,match
+pet,Petroleum and coal products (324),324,Petroleum and coal products,C19,Manufacture of coke and refined petroleum products,0,Manufacture of coke and refined petroleum products,match
+cep,Computer and electronic products (334),334,Computer and electronic products,C26,"Manufacture of computer, electronic and optical products",0,"Manufacture of computer, electronic and optical products",match
+eec,"Electrical equipment, appliances, and components (335)",335,"Electrical equipment, appliances, and components",C27,Manufacture of electrical equipment,3,Manufacture of electrical equipment,match
+fmt,Fabricated metal products (332),332,Fabricated metal products,C25,Manufacture of fabricated metal products,3,Manufacture of fabricated metal products,match
+fbp,Food and beverage and tobacco products (311FT),311FT,Food and beverage and tobacco products,C10T12,Manufacture of food products,3,Manufacture of food and beverage and tobacco products,match
+fpd,Furniture and related products (337),337,Furniture and related products,C31T33,Manufacture of furniture,3,Manufacture of furniture,match
+mch,Machinery (333),333,Machinery,C28,Manufacture of machinery and equipment n.e.c. ,3,Manufacture of machinery and equipment n.e.c. ,match
+mot,"Motor vehicles, bodies and trailers, and parts (3361MV)",3361MV,"Motor vehicles, bodies and trailers, and parts",C29,"Manufacture of motor vehicles, trailers and semi-trailers",3,"Manufacture of motor vehicles, trailers and semi-trailers",match
+nmp,Nonmetallic mineral products (327),327,Nonmetallic mineral products,C23,Manufacture of other non-metallic mineral products,3,Manufacture of other non-metallic mineral products,match
+ote,Other transportation equipment (3364OT),3364OT,Other transportation equipment,C302T309,Manufacture of other transport equipment,3,Manufacture of other transport equipment,match
+pla,Plastics and rubber products (326),326,Plastics and rubber products,C22,Manufacture of rubber and plastic products,3,Manufacture of rubber and plastic products,match
+wpd,Wood products (321),321,Wood products,C16,Manufacture of wood and of products of wood and cork,0,Manufacture of wood and of products of wood and cork,match
+oil,Oil and gas extraction (211),211,Oil and gas extraction,B06,Extraction of crude petroleum and natural gas,3,Oil and gas extraction,match
+osv,"Other services, except government (81)",81,"Other services, except government",S,Other service activities,0,Other service activities,match
+tsv,"Miscellaneous professional, scientific, and technical services (5412OP)",5412OP,"Miscellaneous professional, scientific, and technical services",M,"Professional, scientific and technical activities",3,"Professional, scientific and technical activities",match
+smn,Support activities for mining (213),213,Support activities for mining,B09,Mining support service activities,3,Support activities for mining,match
+wtt,Water transportation (483),483,Water transportation,H50,Water transport,3,Water transport,match
+agr,Farms (111CA),111CA,Farms,A01,Agriculture and hunting,0,"Agriculture, hunting, forestry, fishing and related",none
+fof,"Forestry, fishing, and related activities (113FF)",113FF,"Forestry, fishing, and related activities",A01,Agriculture and hunting,0,"Agriculture, hunting, forestry, fishing and related",none
+agr,Farms (111CA),111CA,Farms,A02,Forestry and logging,0,"Agriculture, hunting, forestry, fishing and related",none
+fof,"Forestry, fishing, and related activities (113FF)",113FF,"Forestry, fishing, and related activities",A02,Forestry and logging,0,"Agriculture, hunting, forestry, fishing and related",none
+agr,Farms (111CA),111CA,Farms,A03,Fishing and aquaculture,0,"Agriculture, hunting, forestry, fishing and related",none
+fof,"Forestry, fishing, and related activities (113FF)",113FF,"Forestry, fishing, and related activities",A03,Fishing and aquaculture,0,"Agriculture, hunting, forestry, fishing and related",none
+brd,Broadcasting and telecommunications (513),513,Broadcasting and telecommunications,J58T60,"Publishing, Motion picture, video, television programme production and broadcasting activities",0,"broadcasting, telecommunications, data processing, publishing, information services, motion picture, video, television",none
+dat,"Data processing, internet publishing, and other information services (514)",514,"Data processing, internet publishing, and other information services",J58T60,"Publishing, Motion picture, video, television programme production and broadcasting activities",0,"broadcasting, telecommunications, data processing, publishing, information services, motion picture, video, television",none
+mov,Motion picture and sound recording industries (512),512,Motion picture and sound recording industries,J58T60,"Publishing, Motion picture, video, television programme production and broadcasting activities",0,"broadcasting, telecommunications, data processing, publishing, information services, motion picture, video, television",none
+pub,"Publishing industries, except internet (includes software) (511)",511,"Publishing industries, except internet (includes software)",J58T60,"Publishing, Motion picture, video, television programme production and broadcasting activities",0,"broadcasting, telecommunications, data processing, publishing, information services, motion picture, video, television",none
+brd,Broadcasting and telecommunications (513),513,Broadcasting and telecommunications,J61,Telecommunications,0,"broadcasting, telecommunications, data processing, publishing, information services, motion picture, video, television",none
+com,Computer systems design and related services (5415),5415,Computer systems design and related services,J62_63,Computer programming and information service activities,0,"broadcasting, telecommunications, data processing, publishing, information services, motion picture, video, television",none
+dat,"Data processing, internet publishing, and other information services (514)",514,"Data processing, internet publishing, and other information services",J62_63,Computer programming and information service activities,0,"broadcasting, telecommunications, data processing, publishing, information services, motion picture, video, television",none
+fbt,Food and beverage stores (445),445,Food and beverage stores,G,Wholesale and retail trade,0,"Wholesale and retail trade, stores",oecd
+gmt,General merchandise stores (452),452,General merchandise stores,G,Wholesale and retail trade,0,"Wholesale and retail trade, stores",oecd
+sec,"Securities, commodity contracts, and investments (523)",523,"Securities, commodity contracts, and investments",K,Financial and insurance activities,2,Financial and insurance activities,oecd
+amd,Accommodation (721),721,Accommodation,I,Accommodation and food service activities,0,Accommodation and food service activities,oecd
+res,Food services and drinking places (722),722,Food services and drinking places,I,Accommodation and food service activities,0,Accommodation and food service activities,oecd
+art,"Performing arts, spectator sports, museums, and related activities (711AS)",711AS,"Performing arts, spectator sports, museums, and related activities",R,"Arts, entertainment and recreation activities",0,"Arts, entertainment and recreation activities",oecd
+rec,"Amusements, gambling, and recreation industries (713)",713,"Amusements, gambling, and recreation industries",R,"Arts, entertainment and recreation activities",0,"Arts, entertainment and recreation activities",oecd
+bnk,"Federal Reserve banks, credit intermediation, and related activities (521CI)",521CI,"Federal Reserve banks, credit intermediation, and related activities",K,Financial and insurance activities,0,Financial and insurance activities,oecd
+fin,"Funds, trusts, and other financial vehicles (525)",525,"Funds, trusts, and other financial vehicles",K,Financial and insurance activities,0,Financial and insurance activities,oecd
+ins,Insurance carriers and related activities (524),524,Insurance carriers and related activities,K,Financial and insurance activities,0,Financial and insurance activities,oecd
+amb,Ambulatory health care services (621),621,Ambulatory health care services,Q,Human health and social work activities,0,Human health and social work activities,oecd
+hos,Hospitals (622),622,Hospitals,Q,Human health and social work activities,0,Human health and social work activities,oecd
+nrs,Nursing and residential care facilities (623),623,Nursing and residential care facilities,Q,Human health and social work activities,0,Human health and social work activities,oecd
+soc,Social assistance (624),624,Social assistance,Q,Human health and social work activities,0,Human health and social work activities,oecd
+ppd,Paper products (322),322,Paper products,C17_18,Manufacture of paper and paper products,0,Manufacture of paper and paper products,oecd
+pri,Printing and related support activities (323),323,Printing and related support activities,C17_18,Manufacture of paper and paper products,0,Manufacture of paper and paper products,oecd
+alt,Apparel and leather and allied products (315AL),315AL,Apparel and leather and allied products,C13T15,"Manufacture of textiles, wearing apparel, leather and related products",0,"Manufacture of textiles, wearing apparel, leather and related products",oecd
+tex,Textile mills and textile product mills (313TT),313TT,Textile mills and textile product mills,C13T15,"Manufacture of textiles, wearing apparel, leather and related products",0,"Manufacture of textiles, wearing apparel, leather and related products",oecd
+fdd,Federal general government (defense) (GFGD),GFGD,Federal general government (defense),O,Public administration and defence,3,Public administration and defence,oecd
+fnd,Federal general government (nondefense) (GFGN),GFGN,Federal general government (nondefense),O,Public administration and defence,0,Public administration and defence,oecd
+sle,State and local government enterprises (GSLE),GSLE,State and local government enterprises,O,Public administration and defence,0,Public administration and defence,oecd
+slg,State and local general government (GSLG),GSLG,State and local general government,O,Public administration and defence,0,Public administration and defence,oecd
+hou,Housing (HS),HS,Housing,L,Real estate activities,0,Real estate activities,oecd
+ore,Other real estate (ORE),ORE,Other real estate,L,Real estate activities,0,Real estate activities,oecd
+otr,Other transportation and support activities (487OS),487OS,Other transportation and support activities,H52,Warehousing and support activities for transportation,0,Warehousing and support activities for transportation,oecd
+wrh,Warehousing and storage (493),493,Warehousing and storage,H52,Warehousing and support activities for transportation,0,Warehousing and support activities for transportation,oecd
+ott,Other retail (4A0),4A0,Other retail,G,Wholesale and retail trade,0,"Wholesale and retail trade, stores",oecd
+wht,Wholesale trade (42),42,Wholesale trade,G,Wholesale and retail trade,0,"Wholesale and retail trade, stores",oecd
+fen,Federal government enterprises (GFE),GFE,Federal government enterprises,H53,Postal and courier activities,0,Federal government enterprises (GFE),windc
+che,Chemical products (325),325,Chemical products,C20,Manufacture of chemicals and chemical products,0,"Manufacture of chemicals and chemical products, pharmaceutical",windc
+che,Chemical products (325),325,Chemical products,C21,Manufacture of basic pharmaceutical products and pharmaceutical preparations,0,"Manufacture of chemicals and chemical products, pharmaceutical",windc
+min,"Mining, except oil and gas (212)",212,"Mining, except oil and gas",B05,Mining of coal and lignite,0,"Mining, except oil & gas",windc
+min,"Mining, except oil and gas (212)",212,"Mining, except oil and gas",B07,Mining of metal ores,0,"Mining, except oil & gas",windc
+min,"Mining, except oil and gas (212)",212,"Mining, except oil and gas",B08,Other mining and quarrying,0,"Mining, except oil & gas",windc
+pmt,Primary metals (331),331,Primary metals,C24A,Manufacture of basic iron and steel,0,primary metals,windc
+pmt,Primary metals (331),331,Primary metals,C24B,Manufacture of basic precious and other non-ferrous metals,0,primary metals,windc
+grd,Transit and ground passenger transportation (485),485,Transit and ground passenger transportation ,H49,Land transport and transport via pipelines,1,Land transport and transport via pipelines,oecd
+leg,Legal services (5411),5411,Legal services,M,"Professional, scientific and technical activities",1,"Professional, scientific and technical activities",oecd
+man,Management of companies and enterprises (55),55,Management of companies and enterprises,M,"Professional, scientific and technical activities",1,"Professional, scientific and technical activities",oecd
+mmf,Miscellaneous manufacturing (339),339,Miscellaneous manufacturing,C28,Manufacture of machinery and equipment n.e.c. ,1,Manufacture of machinery and equipment n.e.c. ,oecd
+mvt,Motor vehicle and parts dealers (441),441,Motor vehicle and parts dealers,G,Wholesale and retail trade,1,"Wholesale and retail trade, stores",oecd
+rnt,Rental and leasing services and lessors of intangible assets (532RL),532RL,Rental and leasing services and lessors of intangible assets,N,Administrative and support service activities,1,Other service activities,oecd
+trk,Truck transportation (484),484,Truck transportation,H49,Land transport and transport via pipelines,1,Land transport and transport via pipelines,oecd
+trn,Rail transportation (482),482,Rail transportation ,H49,Land transport and transport via pipelines,1,Land transport and transport via pipelines,oecd
+wst,Waste management and remediation services (562),562,Waste management and remediation services,E,Water supply,1,"Electricity, gas, steam and air conditioning supply, and wasterwater",none

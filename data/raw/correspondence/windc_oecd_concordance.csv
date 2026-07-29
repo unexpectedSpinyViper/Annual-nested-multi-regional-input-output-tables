@@ -1,0 +1,208 @@
+windc_sector,windc_desc,bea_summary,bea_summary_desc,oecd_code,OECD ICIO Industry
+adm,Administrative and support services (561),561,Administrative and support services,C13T15,"Manufacture of textiles, wearing apparel, leather and related products"
+adm,Administrative and support services (561),561,Administrative and support services,F,Construction
+adm,Administrative and support services (561),561,Administrative and support services,N,Administrative and support service activities
+adm,Administrative and support services (561),561,Administrative and support services,O,Public administration and defence; compulsory social security
+adm,Administrative and support services (561),561,Administrative and support services,S,Other service activities
+agr,Farms (111CA),111CA,Farms,A01,Agriculture and hunting
+agr,Farms (111CA),111CA,Farms,A02,Forestry and logging
+agr,Farms (111CA),111CA,Farms,A03,Fishing and aquaculture
+agr,Farms (111CA),111CA,Farms,C10T12,Manufacture of food products; beverages and tobacco products
+air,Air transportation (481),481,Air transportation  ,H51,Air transport
+alt,Apparel and leather and allied products (315AL),315AL,Apparel and leather and allied products,C13T15,"Manufacture of textiles, wearing apparel, leather and related products"
+alt,Apparel and leather and allied products (315AL),315AL,Apparel and leather and allied products,C22,Manufacture of rubber and plastic products
+amb,Ambulatory health care services (621),621,Ambulatory health care services,Q,Human health and social work activities
+amd,Accommodation (721),721,Accommodation,I,Accommodation and food service activities
+amd,Accommodation (721),721,Accommodation,R,"Arts, entertainment and recreation activities"
+art,"Performing arts, spectator sports, museums, and related activities (711AS)",711AS,"Performing arts, spectator sports, museums, and related activities",C31T33,Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment
+art,"Performing arts, spectator sports, museums, and related activities (711AS)",711AS,"Performing arts, spectator sports, museums, and related activities",M,"Professional, scientific and technical activities"
+art,"Performing arts, spectator sports, museums, and related activities (711AS)",711AS,"Performing arts, spectator sports, museums, and related activities",R,"Arts, entertainment and recreation activities"
+bnk,"Federal Reserve banks, credit intermediation, and related activities (521CI)",521CI,"Federal Reserve banks, credit intermediation, and related activities",K,Financial and insurance activities
+brd,Broadcasting and telecommunications (513),513,Broadcasting and telecommunications,J58T60,"Publishing, Motion picture, video, television programme production and broadcasting activities"
+brd,Broadcasting and telecommunications (513),513,Broadcasting and telecommunications,J61,Telecommunications
+cep,Computer and electronic products (334),334,Computer and electronic products,C17_18,Manufacture of paper and paper products; Printing and reproduction of recorded media
+cep,Computer and electronic products (334),334,Computer and electronic products,C26,"Manufacture of computer, electronic and optical products"
+cep,Computer and electronic products (334),334,Computer and electronic products,C27,Manufacture of electrical equipment
+cep,Computer and electronic products (334),334,Computer and electronic products,C302T309,Manufacture of other transport equipment
+che,Chemical products (325),325,Chemical products,C19,Manufacture of coke and refined petroleum products
+che,Chemical products (325),325,Chemical products,C20,Manufacture of chemicals and chemical products
+che,Chemical products (325),325,Chemical products,C21,Manufacture of basic pharmaceutical products and pharmaceutical preparations
+che,Chemical products (325),325,Chemical products,C22,Manufacture of rubber and plastic products
+che,Chemical products (325),325,Chemical products,C23,Manufacture of other non-metallic mineral products
+che,Chemical products (325),325,Chemical products,C28,Manufacture of machinery and equipment n.e.c. 
+che,Chemical products (325),325,Chemical products,N,Administrative and support service activities
+com,Computer systems design and related services (5415),5415,Computer systems design and related services,J62_63,Computer programming and information service activities
+con,Construction (23),23,Construction,C31T33,Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment
+con,Construction (23),23,Construction,F,Construction
+con,Construction (23),23,Construction,N,Administrative and support service activities
+dat,"Data processing, internet publishing, and other information services (514)",514,"Data processing, internet publishing, and other information services",J58T60,"Publishing, Motion picture, video, television programme production and broadcasting activities"
+dat,"Data processing, internet publishing, and other information services (514)",514,"Data processing, internet publishing, and other information services",J62_63,Computer programming and information service activities
+dat,"Data processing, internet publishing, and other information services (514)",514,"Data processing, internet publishing, and other information services",M,"Professional, scientific and technical activities"
+dat,"Data processing, internet publishing, and other information services (514)",514,"Data processing, internet publishing, and other information services",R,"Arts, entertainment and recreation activities"
+edu,Educational services (61),61,Educational services,P,Education
+eec,"Electrical equipment, appliances, and components (335)",335,"Electrical equipment, appliances, and components",C13T15,"Manufacture of textiles, wearing apparel, leather and related products"
+eec,"Electrical equipment, appliances, and components (335)",335,"Electrical equipment, appliances, and components",C23,Manufacture of other non-metallic mineral products
+eec,"Electrical equipment, appliances, and components (335)",335,"Electrical equipment, appliances, and components",C27,Manufacture of electrical equipment
+fbp,Food and beverage and tobacco products (311FT),311FT,Food and beverage and tobacco products,A03,Fishing and aquaculture
+fbp,Food and beverage and tobacco products (311FT),311FT,Food and beverage and tobacco products,B08,Other mining and quarrying
+fbp,Food and beverage and tobacco products (311FT),311FT,Food and beverage and tobacco products,C10T12,Manufacture of food products; beverages and tobacco products
+fbp,Food and beverage and tobacco products (311FT),311FT,Food and beverage and tobacco products,C20,Manufacture of chemicals and chemical products
+fbp,Food and beverage and tobacco products (311FT),311FT,Food and beverage and tobacco products,D,"Electricity, gas, steam and air conditioning supply"
+fbt,Food and beverage stores (445),445,Food and beverage stores,G,Wholesale and retail trade; repair of motor vehicles and motorcycles
+fdd,Federal general government (defense) (GFGD),GFGD,Federal general government (defense),O,Public administration and defence; compulsory social security
+fen,Federal government enterprises (GFE),GFE,Federal government enterprises,H53,Postal and courier activities
+fin,"Funds, trusts, and other financial vehicles (525)",525,"Funds, trusts, and other financial vehicles",K,Financial and insurance activities
+fmt,Fabricated metal products (332),332,Fabricated metal products,C17_18,Manufacture of paper and paper products; Printing and reproduction of recorded media
+fmt,Fabricated metal products (332),332,Fabricated metal products,C20,Manufacture of chemicals and chemical products
+fmt,Fabricated metal products (332),332,Fabricated metal products,C22,Manufacture of rubber and plastic products
+fmt,Fabricated metal products (332),332,Fabricated metal products,C24A,Manufacture of basic iron and steel
+fmt,Fabricated metal products (332),332,Fabricated metal products,C24B,Manufacture of basic precious and other non-ferrous metals
+fmt,Fabricated metal products (332),332,Fabricated metal products,C25,Manufacture of fabricated metal products
+fmt,Fabricated metal products (332),332,Fabricated metal products,C27,Manufacture of electrical equipment
+fmt,Fabricated metal products (332),332,Fabricated metal products,C28,Manufacture of machinery and equipment n.e.c. 
+fmt,Fabricated metal products (332),332,Fabricated metal products,C29,"Manufacture of motor vehicles, trailers and semi-trailers"
+fmt,Fabricated metal products (332),332,Fabricated metal products,C301,Building of ships and boats
+fmt,Fabricated metal products (332),332,Fabricated metal products,C31T33,Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment
+fnd,Federal general government (nondefense) (GFGN),GFGN,Federal general government (nondefense),O,Public administration and defence; compulsory social security
+fof,"Forestry, fishing, and related activities (113FF)",113FF,"Forestry, fishing, and related activities",A01,Agriculture and hunting
+fof,"Forestry, fishing, and related activities (113FF)",113FF,"Forestry, fishing, and related activities",A02,Forestry and logging
+fof,"Forestry, fishing, and related activities (113FF)",113FF,"Forestry, fishing, and related activities",A03,Fishing and aquaculture
+fof,"Forestry, fishing, and related activities (113FF)",113FF,"Forestry, fishing, and related activities",C16,Manufacture of wood and of products of wood and cork
+fof,"Forestry, fishing, and related activities (113FF)",113FF,"Forestry, fishing, and related activities",M,"Professional, scientific and technical activities"
+fpd,Furniture and related products (337),337,Furniture and related products,C13T15,"Manufacture of textiles, wearing apparel, leather and related products"
+fpd,Furniture and related products (337),337,Furniture and related products,C16,Manufacture of wood and of products of wood and cork
+fpd,Furniture and related products (337),337,Furniture and related products,C22,Manufacture of rubber and plastic products
+fpd,Furniture and related products (337),337,Furniture and related products,C25,Manufacture of fabricated metal products
+fpd,Furniture and related products (337),337,Furniture and related products,C31T33,Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment
+gmt,General merchandise stores (452),452,General merchandise stores,G,Wholesale and retail trade; repair of motor vehicles and motorcycles
+grd,Transit and ground passenger transportation (485),485,Transit and ground passenger transportation ,H49,Land transport and transport via pipelines
+hos,Hospitals (622),622,Hospitals,Q,Human health and social work activities
+hou,Housing (HS),HS,Housing,L,Real estate activities
+ins,Insurance carriers and related activities (524),524,Insurance carriers and related activities,K,Financial and insurance activities
+leg,Legal services (5411),5411,Legal services,M,"Professional, scientific and technical activities"
+man,Management of companies and enterprises (55),55,Management of companies and enterprises,K,Financial and insurance activities
+man,Management of companies and enterprises (55),55,Management of companies and enterprises,M,"Professional, scientific and technical activities"
+mch,Machinery (333),333,Machinery,C25,Manufacture of fabricated metal products
+mch,Machinery (333),333,Machinery,C26,"Manufacture of computer, electronic and optical products"
+mch,Machinery (333),333,Machinery,C27,Manufacture of electrical equipment
+mch,Machinery (333),333,Machinery,C28,Manufacture of machinery and equipment n.e.c. 
+mch,Machinery (333),333,Machinery,C29,"Manufacture of motor vehicles, trailers and semi-trailers"
+mch,Machinery (333),333,Machinery,C302T309,Manufacture of other transport equipment
+mch,Machinery (333),333,Machinery,C31T33,Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment
+min,"Mining, except oil and gas (212)",212,"Mining, except oil and gas",B05,Mining of coal and lignite
+min,"Mining, except oil and gas (212)",212,"Mining, except oil and gas",B07,Mining of metal ores
+min,"Mining, except oil and gas (212)",212,"Mining, except oil and gas",B08,Other mining and quarrying
+mmf,Miscellaneous manufacturing (339),339,Miscellaneous manufacturing,C13T15,"Manufacture of textiles, wearing apparel, leather and related products"
+mmf,Miscellaneous manufacturing (339),339,Miscellaneous manufacturing,C16,Manufacture of wood and of products of wood and cork
+mmf,Miscellaneous manufacturing (339),339,Miscellaneous manufacturing,C17_18,Manufacture of paper and paper products; Printing and reproduction of recorded media
+mmf,Miscellaneous manufacturing (339),339,Miscellaneous manufacturing,C20,Manufacture of chemicals and chemical products
+mmf,Miscellaneous manufacturing (339),339,Miscellaneous manufacturing,C21,Manufacture of basic pharmaceutical products and pharmaceutical preparations
+mmf,Miscellaneous manufacturing (339),339,Miscellaneous manufacturing,C22,Manufacture of rubber and plastic products
+mmf,Miscellaneous manufacturing (339),339,Miscellaneous manufacturing,C23,Manufacture of other non-metallic mineral products
+mmf,Miscellaneous manufacturing (339),339,Miscellaneous manufacturing,C25,Manufacture of fabricated metal products
+mmf,Miscellaneous manufacturing (339),339,Miscellaneous manufacturing,C26,"Manufacture of computer, electronic and optical products"
+mmf,Miscellaneous manufacturing (339),339,Miscellaneous manufacturing,C27,Manufacture of electrical equipment
+mmf,Miscellaneous manufacturing (339),339,Miscellaneous manufacturing,C28,Manufacture of machinery and equipment n.e.c. 
+mmf,Miscellaneous manufacturing (339),339,Miscellaneous manufacturing,C302T309,Manufacture of other transport equipment
+mmf,Miscellaneous manufacturing (339),339,Miscellaneous manufacturing,C31T33,Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment
+mot,"Motor vehicles, bodies and trailers, and parts (3361MV)",3361MV,"Motor vehicles, bodies and trailers, and parts",C13T15,"Manufacture of textiles, wearing apparel, leather and related products"
+mot,"Motor vehicles, bodies and trailers, and parts (3361MV)",3361MV,"Motor vehicles, bodies and trailers, and parts",C22,Manufacture of rubber and plastic products
+mot,"Motor vehicles, bodies and trailers, and parts (3361MV)",3361MV,"Motor vehicles, bodies and trailers, and parts",C23,Manufacture of other non-metallic mineral products
+mot,"Motor vehicles, bodies and trailers, and parts (3361MV)",3361MV,"Motor vehicles, bodies and trailers, and parts",C25,Manufacture of fabricated metal products
+mot,"Motor vehicles, bodies and trailers, and parts (3361MV)",3361MV,"Motor vehicles, bodies and trailers, and parts",C27,Manufacture of electrical equipment
+mot,"Motor vehicles, bodies and trailers, and parts (3361MV)",3361MV,"Motor vehicles, bodies and trailers, and parts",C28,Manufacture of machinery and equipment n.e.c. 
+mot,"Motor vehicles, bodies and trailers, and parts (3361MV)",3361MV,"Motor vehicles, bodies and trailers, and parts",C29,"Manufacture of motor vehicles, trailers and semi-trailers"
+mot,"Motor vehicles, bodies and trailers, and parts (3361MV)",3361MV,"Motor vehicles, bodies and trailers, and parts",C301,Building of ships and boats
+mot,"Motor vehicles, bodies and trailers, and parts (3361MV)",3361MV,"Motor vehicles, bodies and trailers, and parts",C302T309,Manufacture of other transport equipment
+mov,Motion picture and sound recording industries (512),512,Motion picture and sound recording industries,J58T60,"Publishing, Motion picture, video, television programme production and broadcasting activities"
+mvt,Motor vehicle and parts dealers (441),441,Motor vehicle and parts dealers,C31T33,Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment
+mvt,Motor vehicle and parts dealers (441),441,Motor vehicle and parts dealers,G,Wholesale and retail trade; repair of motor vehicles and motorcycles
+nmp,Nonmetallic mineral products (327),327,Nonmetallic mineral products,C23,Manufacture of other non-metallic mineral products
+nmp,Nonmetallic mineral products (327),327,Nonmetallic mineral products,C31T33,Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment
+nrs,Nursing and residential care facilities (623),623,Nursing and residential care facilities,Q,Human health and social work activities
+oil,Oil and gas extraction (211),211,Oil and gas extraction,B05,Mining of coal and lignite
+oil,Oil and gas extraction (211),211,Oil and gas extraction,B06,Extraction of crude petroleum and natural gas
+ore,Other real estate (ORE),ORE,Other real estate,L,Real estate activities
+osv,"Other services, except government (81)",81,"Other services, except government",C29,"Manufacture of motor vehicles, trailers and semi-trailers"
+osv,"Other services, except government (81)",81,"Other services, except government",C31T33,Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment
+osv,"Other services, except government (81)",81,"Other services, except government",G,Wholesale and retail trade; repair of motor vehicles and motorcycles
+osv,"Other services, except government (81)",81,"Other services, except government",H52,Warehousing and support activities for transportation
+osv,"Other services, except government (81)",81,"Other services, except government",J61,Telecommunications
+osv,"Other services, except government (81)",81,"Other services, except government",M,"Professional, scientific and technical activities"
+osv,"Other services, except government (81)",81,"Other services, except government",N,Administrative and support service activities
+osv,"Other services, except government (81)",81,"Other services, except government",R,"Arts, entertainment and recreation activities"
+osv,"Other services, except government (81)",81,"Other services, except government",S,Other service activities
+osv,"Other services, except government (81)",81,"Other services, except government",T,Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use
+ote,Other transportation equipment (3364OT),3364OT,Other transportation equipment,C28,Manufacture of machinery and equipment n.e.c. 
+ote,Other transportation equipment (3364OT),3364OT,Other transportation equipment,C29,"Manufacture of motor vehicles, trailers and semi-trailers"
+ote,Other transportation equipment (3364OT),3364OT,Other transportation equipment,C301,Building of ships and boats
+ote,Other transportation equipment (3364OT),3364OT,Other transportation equipment,C302T309,Manufacture of other transport equipment
+ote,Other transportation equipment (3364OT),3364OT,Other transportation equipment,C31T33,Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment
+otr,Other transportation and support activities (487OS),487OS,Other transportation and support activities,B09,Mining support service activities
+otr,Other transportation and support activities (487OS),487OS,Other transportation and support activities,C31T33,Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment
+otr,Other transportation and support activities (487OS),487OS,Other transportation and support activities,E,"Water supply; sewerage, waste management and remediation activities"
+otr,Other transportation and support activities (487OS),487OS,Other transportation and support activities,H49,Land transport and transport via pipelines
+otr,Other transportation and support activities (487OS),487OS,Other transportation and support activities,H50,Water transport
+otr,Other transportation and support activities (487OS),487OS,Other transportation and support activities,H51,Air transport
+otr,Other transportation and support activities (487OS),487OS,Other transportation and support activities,H52,Warehousing and support activities for transportation
+otr,Other transportation and support activities (487OS),487OS,Other transportation and support activities,H53,Postal and courier activities
+otr,Other transportation and support activities (487OS),487OS,Other transportation and support activities,N,Administrative and support service activities
+ott,Other retail (4A0),4A0,Other retail,C23,Manufacture of other non-metallic mineral products
+ott,Other retail (4A0),4A0,Other retail,C31T33,Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment
+ott,Other retail (4A0),4A0,Other retail,G,Wholesale and retail trade; repair of motor vehicles and motorcycles
+ott,Other retail (4A0),4A0,Other retail,S,Other service activities
+pet,Petroleum and coal products (324),324,Petroleum and coal products,C16,Manufacture of wood and of products of wood and cork
+pet,Petroleum and coal products (324),324,Petroleum and coal products,C19,Manufacture of coke and refined petroleum products
+pet,Petroleum and coal products (324),324,Petroleum and coal products,C23,Manufacture of other non-metallic mineral products
+pip,Pipeline transportation (486),486,Pipeline transportation,H49,Land transport and transport via pipelines
+pla,Plastics and rubber products (326),326,Plastics and rubber products,C22,Manufacture of rubber and plastic products
+pla,Plastics and rubber products (326),326,Plastics and rubber products,C27,Manufacture of electrical equipment
+pla,Plastics and rubber products (326),326,Plastics and rubber products,C29,"Manufacture of motor vehicles, trailers and semi-trailers"
+pla,Plastics and rubber products (326),326,Plastics and rubber products,C31T33,Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment
+pmt,Primary metals (331),331,Primary metals,C24A,Manufacture of basic iron and steel
+pmt,Primary metals (331),331,Primary metals,C24B,Manufacture of basic precious and other non-ferrous metals
+pmt,Primary metals (331),331,Primary metals,C25,Manufacture of fabricated metal products
+pmt,Primary metals (331),331,Primary metals,C27,Manufacture of electrical equipment
+pmt,Primary metals (331),331,Primary metals,C28,Manufacture of machinery and equipment n.e.c. 
+pmt,Primary metals (331),331,Primary metals,C302T309,Manufacture of other transport equipment
+ppd,Paper products (322),322,Paper products,C13T15,"Manufacture of textiles, wearing apparel, leather and related products"
+ppd,Paper products (322),322,Paper products,C17_18,Manufacture of paper and paper products; Printing and reproduction of recorded media
+ppd,Paper products (322),322,Paper products,C22,Manufacture of rubber and plastic products
+ppd,Paper products (322),322,Paper products,C23,Manufacture of other non-metallic mineral products
+ppd,Paper products (322),322,Paper products,C24B,Manufacture of basic precious and other non-ferrous metals
+ppd,Paper products (322),322,Paper products,C25,Manufacture of fabricated metal products
+pri,Printing and related support activities (323),323,Printing and related support activities,C13T15,"Manufacture of textiles, wearing apparel, leather and related products"
+pri,Printing and related support activities (323),323,Printing and related support activities,C17_18,Manufacture of paper and paper products; Printing and reproduction of recorded media
+pri,Printing and related support activities (323),323,Printing and related support activities,C25,Manufacture of fabricated metal products
+pri,Printing and related support activities (323),323,Printing and related support activities,N,Administrative and support service activities
+pub,"Publishing industries, except internet (includes software) (511)",511,"Publishing industries, except internet (includes software)",J58T60,"Publishing, Motion picture, video, television programme production and broadcasting activities"
+rec,"Amusements, gambling, and recreation industries (713)",713,"Amusements, gambling, and recreation industries",H49,Land transport and transport via pipelines
+rec,"Amusements, gambling, and recreation industries (713)",713,"Amusements, gambling, and recreation industries",N,Administrative and support service activities
+rec,"Amusements, gambling, and recreation industries (713)",713,"Amusements, gambling, and recreation industries",R,"Arts, entertainment and recreation activities"
+res,Food services and drinking places (722),722,Food services and drinking places,I,Accommodation and food service activities
+rnt,Rental and leasing services and lessors of intangible assets (532RL),532RL,Rental and leasing services and lessors of intangible assets,N,Administrative and support service activities
+sec,"Securities, commodity contracts, and investments (523)",523,"Securities, commodity contracts, and investments",K,Financial and insurance activities
+sec,"Securities, commodity contracts, and investments (523)",523,"Securities, commodity contracts, and investments",L,Real estate activities
+sle,State and local government enterprises (GSLE),GSLE,State and local government enterprises,O,Public administration and defence; compulsory social security
+slg,State and local general government (GSLG),GSLG,State and local general government,O,Public administration and defence; compulsory social security
+smn,Support activities for mining (213),213,Support activities for mining,B09,Mining support service activities
+smn,Support activities for mining (213),213,Support activities for mining,F,Construction
+soc,Social assistance (624),624,Social assistance,Q,Human health and social work activities
+tex,Textile mills and textile product mills (313TT),313TT,Textile mills and textile product mills,C13T15,"Manufacture of textiles, wearing apparel, leather and related products"
+tex,Textile mills and textile product mills (313TT),313TT,Textile mills and textile product mills,C22,Manufacture of rubber and plastic products
+trk,Truck transportation (484),484,Truck transportation,H49,Land transport and transport via pipelines
+trn,Rail transportation (482),482,Rail transportation ,H49,Land transport and transport via pipelines
+tsv,"Miscellaneous professional, scientific, and technical services (5412OP)",5412OP,"Miscellaneous professional, scientific, and technical services",K,Financial and insurance activities
+tsv,"Miscellaneous professional, scientific, and technical services (5412OP)",5412OP,"Miscellaneous professional, scientific, and technical services",M,"Professional, scientific and technical activities"
+tsv,"Miscellaneous professional, scientific, and technical services (5412OP)",5412OP,"Miscellaneous professional, scientific, and technical services",N,Administrative and support service activities
+tsv,"Miscellaneous professional, scientific, and technical services (5412OP)",5412OP,"Miscellaneous professional, scientific, and technical services",Q,Human health and social work activities
+uti,Utilities (22),22,Utilities,D,"Electricity, gas, steam and air conditioning supply"
+uti,Utilities (22),22,Utilities,E,"Water supply; sewerage, waste management and remediation activities"
+uti,Utilities (22),22,Utilities,H49,Land transport and transport via pipelines
+wht,Wholesale trade (42),42,Wholesale trade,G,Wholesale and retail trade; repair of motor vehicles and motorcycles
+wpd,Wood products (321),321,Wood products,C16,Manufacture of wood and of products of wood and cork
+wpd,Wood products (321),321,Wood products,C22,Manufacture of rubber and plastic products
+wpd,Wood products (321),321,Wood products,C31T33,Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment
+wrh,Warehousing and storage (493),493,Warehousing and storage,H52,Warehousing and support activities for transportation
+wst,Waste management and remediation services (562),562,Waste management and remediation services,E,"Water supply; sewerage, waste management and remediation activities"
+wtt,Water transportation (483),483,Water transportation,H50,Water transport

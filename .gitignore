@@ -1,0 +1,53 @@
+# =============================================================
+#  GitHub = CODE only. Third-party raw data, all derived data,
+#  environments and secrets stay out of the repository.
+# =============================================================
+
+# --- Secrets (NEVER commit) --------------------------------
+*.pkl
+*.key
+*.pem
+.env
+credentials.json
+token.pkl
+
+# --- Data --------------------------------------------------
+# Everything under data/ is ignored EXCEPT the small, hand-curated
+# correspondence inputs and the documentation files.
+/data/**
+!/data/README.md
+!/data/raw/
+!/data/raw/DOWNLOAD.md
+!/data/raw/correspondence/
+!/data/raw/correspondence/**
+!/data/interim/
+!/data/interim/.gitkeep
+!/data/final/
+!/data/final/.gitkeep
+
+# --- Notebook execution artefacts --------------------------
+_executed/
+.ipynb_checkpoints/
+
+# --- Python / build ----------------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# --- Generated figures / outputs ---------------------------
+# The figure *scripts* live in pipeline/plots/ and are versioned; what they
+# write goes to figures/ at the repository root and is not.
+/figures/
+/outputs/
+/output/
+*.egg-info/
+
+# --- OS / editor junk --------------------------------------
+.DS_Store
+Thumbs.db
+*~

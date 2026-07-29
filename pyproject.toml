@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mriot-nested-reconstruction"
+version = "0.1.0"
+description = "Reconstruction of bilateral state-to-state flows and nesting of a state-resolved United States block into the OECD ICIO world table."
+requires-python = ">=3.9"
+
+# Expose the tiny `paths` module (src/paths.py) as a top-level import.
+[tool.setuptools]
+py-modules = ["paths"]
+
+[tool.setuptools.package-dir]
+"" = "src"

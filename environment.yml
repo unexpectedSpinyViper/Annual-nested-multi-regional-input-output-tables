@@ -1,0 +1,18 @@
+# Conda environment for the nested-MRIOT reconstruction routine.
+# Conda pins Python 3.9 and the compiled numeric stack cleanly; the exact
+# Python-package versions still come from requirements.txt (single source).
+#
+#     conda env create -f environment.yml
+#     conda activate mriot-nested
+#     pip install -r requirements.txt
+#     pip install -e .
+#
+# Reading the WiNDC .gdx additionally requires a licensed GAMS install.
+name: mriot-nested
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - -r requirements.txt
