@@ -94,6 +94,7 @@ python pipeline/plots/fig01_workflow.py           # the light ones run anywhere
 | `plot_gamma_figures.py` | `gamma_sensitivity_extended`, `gamma_per_sector` |
 | `validation/final_demand_allocator.ipynb` | `fd_allocator_choice_2017`, `fd_allocator_bias`, `fd_gov_referents`, `fd_allocator_timeseries` (+ two supplementary, `fd_allocator_results_2017.json`, `fd_allocator_tradeoffs.csv`) |
 | `validation/cfs_faf_validation.ipynb` | `fig_cfs_faf_validation` (+ `cfs_faf_metrics_2017.csv`) |
+| `table_network_stats.py` | `network_stats_2017.csv` — the centrality table of the Data Overview |
 | `fig08_distance_variants.py` | `fig_distance_variants` (Supplementary; downloads its own Census inputs) |
 
 `plot_gamma_figures.py` reads the sweep results versioned in
