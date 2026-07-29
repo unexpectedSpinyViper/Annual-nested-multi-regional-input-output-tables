@@ -97,9 +97,18 @@ python pipeline/plots/fig01_workflow.py           # the light ones run anywhere
 | `fig08_distance_variants.py` | `fig_distance_variants` (Supplementary; downloads its own Census inputs) |
 
 `plot_gamma_figures.py` reads the sweep results versioned in
-`pipeline/plots/outputs_gamma/`; regenerating those from scratch means re-running
-`gamma_sensitivity_report.py`, `gamma_vs_observations.py` and `gamma_bilateral_grid.py`,
-which need a compute node with about 64 GB.
+`pipeline/plots/outputs_gamma/`. Each point of the sweep is a full intra-US
+construction, so regenerating them is the most expensive job here:
+
+```bash
+sbatch pipeline/plots/run_gamma_sweep.sbatch report   # the dense uniform sweep
+sbatch pipeline/plots/run_gamma_sweep.sbatch obs      # bilateral structure vs CFS/FAF
+sbatch pipeline/plots/run_gamma_sweep.sbatch grid     # build-only bilateral grid
+```
+
+The two reference lines of the figure — the structural distance of the delivered table
+to CFS and to FAF — are read from `figures/cfs_faf_metrics_2017.csv`, so they follow the
+delivered series instead of being pinned to a literal.
 
 The only manuscript figures **not** scripted here are the state portraits `figS2_*` of
 the Supplementary, for which no generating code survives.

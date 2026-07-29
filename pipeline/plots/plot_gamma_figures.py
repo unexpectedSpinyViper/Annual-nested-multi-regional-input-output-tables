@@ -32,7 +32,19 @@ MODELS = ["Leontief", "IIM", "Ghosh"]
 
 # Structural distance of the delivered table to the two observations, in the L1
 # convention of the external-validation subsection (0..2; /2 = mass misallocated).
-CFS_L1, FAF_L1 = 0.4588, 0.4786
+# Read from the external-validation output rather than pinned, so the two reference
+# lines cannot drift away from the delivered table the way a literal does.
+def _observed_L1():
+    path = FIG_DIR / "cfs_faf_metrics_2017.csv"
+    if not path.exists():
+        raise FileNotFoundError(
+            f"{path} not found -- run validation/cfs_faf_validation.ipynb first; it "
+            f"measures the distance of the delivered table to CFS and FAF.")
+    t = pd.read_csv(path).set_index("comparison")["struct_L1"]
+    return float(t["recon vs CFS"]), float(t["recon vs FAF"])
+
+
+CFS_L1, FAF_L1 = _observed_L1()
 
 mpl.rcParams.update({
     "font.size": 9, "axes.labelsize": 9, "axes.titlesize": 9.5,
