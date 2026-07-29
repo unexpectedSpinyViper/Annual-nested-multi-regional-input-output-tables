@@ -74,6 +74,7 @@ repository emits **no LaTeX**: numbers quoted in the manuscript are exported as 
 JSON, and typesetting is left to the manuscript.
 
 ```bash
+sbatch pipeline/run_series.sbatch                 # re-deliver the 26 tables first
 sbatch pipeline/plots/run_figures.sbatch          # all of them, on a compute node
 sbatch pipeline/plots/run_figures.sbatch fig05    # or just one
 python pipeline/plots/fig01_workflow.py           # the light ones run anywhere
@@ -163,10 +164,14 @@ bash run_all.sh
 - [ ] **Fill in** the dataset DOI, the `\todo` items of the descriptor, and the exact
       library versions in the Code Availability section (they are pinned in
       `requirements.txt`).
-- [ ] **Distance-decay slope.** `fig07_interstate_structure.py` measures an effective
-      elasticity of $-0.81$ on a fresh build against the $-0.85$ quoted in the manuscript;
-      the saved (pre-2026-07) build gives $-0.83$. The gap is the change of distance
-      reference points and disappears once the series is re-delivered.
+- [x] **Series re-delivered** (2026-07-29) from raw inputs with the economic centroids,
+      the sub-national final-demand allocator and the residual closure: 26 files, 3.28 GB.
+      Column closure to 1.2e-10 M\$, world residuals crossing the 200 M\$ tolerance in
+      1998, 1999, 2009 and 2010 only, totals conserved cell for cell against the previous
+      generation, which it differs from by 0.9-1.1 % in L1.
+- [ ] **Manuscript: distance-decay slope.** The delivered table now has an effective
+      distance elasticity of $-0.81$ (r = -0.43, 2 550 pairs); the manuscript still quotes
+      $-0.85$, measured on the superseded state-capital reference points.
 
 ## Citation
 

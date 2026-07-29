@@ -22,7 +22,13 @@ mkdir -p "$TMPDIR" "$MPLCONFIGDIR"
 source /share/apps/anaconda3/2025.06/etc/profile.d/conda.sh
 conda activate cascading-impacts
 
-cd "$(dirname "$0")/../.."          # repository root
+cd "${SLURM_SUBMIT_DIR:-$PWD}"
+# Under sbatch, $0 is a copy of this script in the SLURM spool, so a path relative
+# to it lands outside the repository. Submit from the repository root.
+if [ ! -f pyproject.toml ] || [ ! -d pipeline ]; then
+  echo "error: submit this script from the repository root (got $PWD)" >&2
+  exit 1
+fi
 
 SCRIPTS=(
   fig01_workflow.py                 # workflow schematic
@@ -38,12 +44,22 @@ SCRIPTS=(
   plot_gamma_figures.py             # friction-exponent sensitivity
 )
 
+# Two manuscript figures come from validation notebooks, not from scripts; they are
+# executed after the scripts unless a script filter was given on the command line.
+NOTEBOOKS=(
+  pipeline/validation/final_demand_allocator.ipynb   # the four fd_* figures
+  pipeline/validation/cfs_faf_validation.ipynb       # fig_cfs_faf_validation
+)
+
 if [ $# -gt 0 ]; then
   SCRIPTS=()
+  NOTEBOOKS=()
   for pat in "$@"; do
     for f in pipeline/plots/${pat}*.py; do SCRIPTS+=("$(basename "$f")"); done
   done
 fi
+
+export PYTHONPATH="$PWD/src${PYTHONPATH:+:$PYTHONPATH}"
 
 echo "Host: $(hostname) | Mem: ${SLURM_MEM_PER_NODE:-?} MB | CPUs: ${SLURM_CPUS_PER_TASK:-?}"
 for s in "${SCRIPTS[@]}"; do
@@ -51,6 +67,15 @@ for s in "${SCRIPTS[@]}"; do
   echo "== $s"
   echo "=============================================================="
   python -u "pipeline/plots/$s"
+done
+
+for nb in ${NOTEBOOKS[@]+"${NOTEBOOKS[@]}"}; do
+  echo "=============================================================="
+  echo "== $nb"
+  echo "=============================================================="
+  jupyter nbconvert --to notebook --execute \
+    --ExecutePreprocessor.timeout=-1 \
+    --output-dir=_executed "$nb"
 done
 
 echo "DONE"

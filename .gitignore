@@ -51,3 +51,6 @@ dist/
 .DS_Store
 Thumbs.db
 *~
+
+# SLURM job logs
+*-[0-9]*.log
